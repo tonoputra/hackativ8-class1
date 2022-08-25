@@ -1,6 +1,7 @@
 package main
 
 import (
+	"projectone/closurepointerstruct"
 	"projectone/ganjilgenap"
 	"projectone/sliceloopingkenalan"
 )
@@ -11,4 +12,7 @@ func main() {
 
 	// slice + loop + kenalan
 	sliceloopingkenalan.GetSliceKenalan()
+
+	// closure + pointer + struct
+	closurepointerstruct.GetTemanCall()
 }
